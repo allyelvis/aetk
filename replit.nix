@@ -1,5 +1,14 @@
 { pkgs }: {
   deps = [
+    pkgs.zipkin
+    pkgs.python311Packages.zipstream-ng
+    pkgs.haskellPackages.ziptastic-core
+    pkgs.python312Packages.zipp
+    pkgs.haskellPackages.ziptastic-client
+    pkgs.python312Packages.zipstream-ng
+    pkgs.python311Packages.zipstream
+    pkgs.python311Packages.zipp
+    pkgs.haskellPackages.ZipFold
     pkgs.haskellPackages.bindings-linux-videodev2
     pkgs.python311Packages.get-video-properties
     pkgs.haskellPackages.amazonka-kinesis-video-signaling
