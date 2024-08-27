@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-vscode.vscode-typescript-next",
+        "salesforce.salesforcedx-vscode-expanded",
+        "redhat.vscode-yaml",
+        "znck.vue-language-features",
+        "rlnt.uperms-db-syntax",
+        "amodio.tsl-problem-matcher"
+    ]
+}
