@@ -1,0 +1,50 @@
+name: sokoni_app
+description: A new Flutter application for Sokoni App.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management (Optional, but common)
+  provider: ^6.0.5
+
+  # Firebase dependencies (Uncomment if using Firebase)
+  # firebase_core: ^2.3.0
+  # cloud_firestore: ^4.4.5
+  # firebase_auth: ^4.5.0
+  # firebase_storage: ^11.1.0
+
+  # HTTP requests (Optional)
+  http: ^1.1.0
+
+  # Other useful packages
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting rules (Optional)
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+
+  # Add your custom configurations here

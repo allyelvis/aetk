@@ -1,6 +1,6 @@
 run = "cowsay Configure me!"
 entrypoint = "README.md"
-modules = ["dart-3.4", "docker", "gcloud", "go-1.21", "nix", "nodejs-20", "python-3.10", "web", "zig-0.11"]
+modules = ["dart-3.4", "docker", "gcloud", "go-1.21", "nix", "nodejs-18", "python-3.10", "web", "zig-0.11"]
 
 [nix]
 channel = "stable-24_05"
