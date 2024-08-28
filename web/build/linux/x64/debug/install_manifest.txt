@@ -1,0 +1,12 @@
+/home/runner/aetk/web/build/linux/x64/debug/bundle/web
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/runner/aetk/web/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/runner/aetk/web/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
