@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase SPACEBAR Login</title>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+  
+  <script>
+    // Initialize Firebase with your project configuration
+    const firebaseConfig = {
+      apiKey: "your-firebase-api-key",
+      authDomain: "your-firebase-project-id.firebaseapp.com",
+      projectId: "your-firebase-project-id",
+      storageBucket: "your-firebase-project-id.appspot.com",
+      messagingSenderId: "your-messaging-sender-id",
+      appId: "your-app-id",
+      measurementId: "your-measurement-id"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const analytics = firebase.analytics();
+
+    // Function to handle login when SPACEBAR is pressed
+    function handleSpacebarPress(event) {
+      if (event.key === " " || event.keyCode === 32) {
+        event.preventDefault();
+        console.log("SPACEBAR pressed, attempting login...");
+
+        auth.signInWithEmailAndPassword("allyelvis6569@gmail.com", "your-password")
+          .then((userCredential) => {
+            const user = userCredential.user;
+            console.log("Login successful:", user);
+            alert("Logged in successfully as " + user.email);
+          })
+          .catch((error) => {
+            console.error("Login failed:", error);
+            alert("Login failed: " + error.message);
+          });
+      }
+    }
+
+    // Attach event listener for SPACEBAR press
+    document.addEventListener('keydown', handleSpacebarPress);
+  </script>
+</head>
+<body>
+  <h1>Press SPACEBAR to log in as allyelvis6569@gmail.com</h1>
+</body>
+</html>
