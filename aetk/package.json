@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@genkit-ai/ai": "^0.5.12",
-    "@genkit-ai/core": "^0.5.12",
+    "@genkit-ai/core": "^0.9.12",
     "@genkit-ai/dotprompt": "^0.5.12",
     "@genkit-ai/firebase": "^0.5.12",
     "@genkit-ai/flow": "^0.5.12",
